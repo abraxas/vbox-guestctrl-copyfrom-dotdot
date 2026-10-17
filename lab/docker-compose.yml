@@ -1,0 +1,18 @@
+name: vbox-guestctrl-copyfrom-dotdot
+
+services:
+  gadget:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    init: true
+    restart: "no"
+    working_dir: /lab
+    environment:
+      PYTHONUNBUFFERED: "1"
+      LABEL: "vbox-guestctrl-copyfrom-dotdot"
+      WITNESS: "VBOX-GUESTCTRL-COPYFROM-DOTDOT-WITNESS"
+    ports:
+      - "127.0.0.1:19220:19220"
+    labels:
+      lab: vbox-guestctrl-copyfrom-dotdot
