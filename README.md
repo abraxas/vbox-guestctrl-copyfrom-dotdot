@@ -13,6 +13,10 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/abraxas/vbox-guestctrl-copyfrom-dotdot">vbox-guestctrl-copyfrom-dotdot</a>
 </p>
+<p align="center">
+  Write-up: <a href="https://abraxaslabs.tech/research/virtualbox-7-2-20-leftovers"><strong>https://abraxaslabs.tech/research/virtualbox-7-2-20-leftovers</strong></a>
+</p>
+
 
 # vbox-guestctrl-copyfrom-dotdot
 
